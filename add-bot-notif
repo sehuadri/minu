@@ -28,7 +28,7 @@ function baris_panjang() {
   echo -e "${BlueCyan} ——————————————————————————————————— ${Xark} "
 }
 
-function Pian_Banner() {
+function cloudvpn() {
 clear
 baris_panjang
 echo -e "${ungu}           $nama      ${Xark} "
@@ -80,7 +80,7 @@ clear
 }
 
 
-Pian_Banner
+cloudvpn
 baris_panjang
 echo ""
 echo -e "${Purple}           ADD BOT NOTIFIKASI ${Xark} "
@@ -106,7 +106,7 @@ if [[ "${DATADB}" != '' ]]; then
 fi
 echo "#bot# ${bottoken} ${admin}" >>/etc/bot/.bot.db
 
-Pian_Banner
+cloudvpn
 baris_panjang
 echo -e ""
 echo -e "${GreenBe} Succesfully ${Xark} "
