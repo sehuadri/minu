@@ -82,8 +82,8 @@ clear
     echo -e "            \033[91;1mPERMISSION DENIED !\033[0m"
     echo -e "     \033[0;33mBuy access permissions for scripts\033[0m"
     echo -e "             \033[0;33mContact Admin :\033[0m"
-    echo -e "      \033[2;32mWhatsApp\033[0m wa.me/6287793583445"
-	echo -e "      \033[2;32mTelegram\033[0m t.me/pianstore01"
+    echo -e "      \033[2;32mWhatsApp\033[0m wa.me/none"
+	echo -e "      \033[2;32mTelegram\033[0m t.me/amiqyu"
     echo -e "\033[1;93m────────────────────────────────────────────\033[0m"
     sleep 3
     print_success "Script Name Default"
@@ -102,10 +102,10 @@ fi
 ######################################
 # // USERNAME IZIN IPP
 rm -f /usr/bin/user
-username=$(curl -sS https://raw.githubusercontent.com/pianstore/izinvps/main/ipx | grep -wE $MYIP | awk '{print $2}')
+username=$(curl -sS https://raw.githubusercontent.com/awanklod/izin_new/main/ip | grep -wE $MYIP | awk '{print $2}')
 echo "$username" >/usr/bin/user
 rm -f /usr/bin/e
-valid=$(curl -sS https://raw.githubusercontent.com/pianstore/izinvps/main/ipx | grep -wE $MYIP | awk '{print $3}')
+valid=$(curl -sS https://raw.githubusercontent.com/awanklod/izin_new/main/ip | grep -wE $MYIP | awk '{print $3}')
 echo "$valid" > /usr/bin/e
 
 clear
@@ -273,7 +273,7 @@ case $hallo in
 5) clear ; m-ssr ;; # menu sadowsocks
 6) clear ; m-noobz ;; # menu noobzvps
 7) clear ; m-bot ;; # menu bot telegram
-8) clear ; wget -q https://raw.githubusercontent.com/pianstore/os/main/menu/update.sh && chmod +x update.sh && ./update.sh ;; #Update script
+8) clear ; wget -q https://raw.githubusercontent.com/sehuadri/oss/main/menu/update.sh && chmod +x update.sh && ./update.sh ;; #Update script
 9) clear ; m-bkp ;; # menu backup
 10) clear ; m-ftr ;; # menu managers
 11) clear ; reboot ;; # rebot
