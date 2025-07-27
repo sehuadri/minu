@@ -84,8 +84,8 @@ ZONE=$(
 	)	
 	fi
 clear
-CHATID="6631695782"
-KEY="7830319313:AAEq-OTFRD3qYCTxqCr9TU2fVA3vFO6gHYE"
+CHATID="1486508882" 
+KEY="7286072978:AAF6JRoH86zg5UAQeHKrpIviAICDc-vJxDU"
 TIMES="10"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 TEXT="_______________________________
