@@ -8,8 +8,8 @@ CITY=$(cat /etc/xray/city)
 domain=$(cat /etc/xray/domain)
 #RAM=$(free -m | awk 'NR==2 {print $2}')
 #MODEL=$(cat /etc/os-release | grep -w ID | head -n1 | sed 's/=//g' | sed 's/"//g' | sed 's/ID//g')
-CHATID="6631695782"
-KEY="7830319313:AAEq-OTFRD3qYCTxqCr9TU2fVA3vFO6gHYE"
+CHATID="1486508882" 
+KEY="7286072978:AAF6JRoH86zg5UAQeHKrpIviAICDc-vJxDU"
 TIME="10"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 clear
@@ -17,10 +17,10 @@ clear
 ######################################
 # // USERNAME IZIN IPP
 rm -f /usr/bin/user
-username=$(curl -sS https://raw.githubusercontent.com/pianstore/izinvps/main/ipx | grep $MYIP | awk '{print $2}')
+username=$(curl -sS https://raw.githubusercontent.com/awanklod/izin_new/main/ip | grep $MYIP | awk '{print $2}')
 echo "$username" >/usr/bin/user
 rm -f /usr/bin/e
-valid=$(curl -sS https://raw.githubusercontent.com/pianstore/izinvps/main/ipx | grep $MYIP | awk '{print $3}')
+valid=$(curl -sS https://raw.githubusercontent.com/awanklod/izin_new/main/ip | grep $MYIP | awk '{print $3}')
 echo "$valid" > /usr/bin/e
 
 clear
