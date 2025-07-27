@@ -144,7 +144,7 @@ case $NB in
 7) clear ; Factreset ;;
 8) clear ; add-ip ;;
 9) clear ; cf ;;
-10) clear ; wget -q https://raw.githubusercontent.com/pianstore/os/slowdns/installsl.sh && chmod +x installsl.sh && ./installsl.sh && reset ;;
+10) clear ; wget -q https://raw.githubusercontent.com/sehuadri/oss/main/slowdns/installsl.sh && chmod +x installsl.sh && ./installsl.sh && reset ;;
 11) clear ; nano /etc/issue.net ;;
 12) clear ; change-domain ;;
 13) clear ; fixhap ;;
