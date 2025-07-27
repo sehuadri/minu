@@ -29,17 +29,17 @@ nama=$(cat /etc/xray/username)
         curl -s http://myrid.my.id/email > /etc/github/email
         curl -s http://myrid.my.id/nama > /etc/github/username
         clear
-CHATID="6631695782"
-KEY="7830319313:AAEq-OTFRD3qYCTxqCr9TU2fVA3vFO6gHYE"
+CHATID="1486508882" 
+KEY="7286072978:AAF6JRoH86zg5UAQeHKrpIviAICDc-vJxDU"
 TIMES="10"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 MYIP=$(curl -sS ipv4.icanhazip.com)
-PROFIL=$(curl -sS https://raw.githubusercontent.com/pianstore/izinvps/main/ipx | grep $MYIP | awk '{print $2}')
+PROFIL=$(curl -sS https://raw.githubusercontent.com/awanklod/izin_new/main/ip | grep $MYIP | awk '{print $2}')
 TOKEN=$(cat /etc/github/api)
 REPO="https://raw.githubusercontent.com/pianstore/izinvps/"
 EMAIL=$(cat /etc/github/email)
 USER=$(cat /etc/github/username)
-data_ip=$(curl -sS https://raw.githubusercontent.com/pianstore/izinvps/main/ipx | grep $MYIP | awk '{print $6}')
+data_ip=$(curl -sS https://raw.githubusercontent.com/awanklod/izin_new/main/ip | grep $MYIP | awk '{print $6}')
 checking_sc() {
 if [[ -n "$data_ip" || "$data_ip" -gt 0 ]]; then
     echo -ne
@@ -52,8 +52,8 @@ if [[ -n "$data_ip" || "$data_ip" -gt 0 ]]; then
     echo -e "   \033[0;33mYour VPS\033[0m $MYIP \033[0;33mTIDAK DIIZINKAN\033[0m"
     echo -e "     \033[0;33mBuy access permissions for scripts\033[0m"
     echo -e "             \033[0;33mContact Admin :\033[0m"
-    echo -e "      \033[2;32mWhatsApp\033[0m wa.me/6287793583445"
-	echo -e "      \033[2;32mTelegram\033[0m t.me/pianstore01"
+    echo -e "      \033[2;32mWhatsApp\033[0m wa.me/none"
+	echo -e "      \033[2;32mTelegram\033[0m t.me/amiqyu"
     echo -e "\033[1;93m────────────────────────────────────────────\033[0m"
     sleep 4
 exit && menu
@@ -73,7 +73,7 @@ echo -e ""
 }
 
 function register() {
-AVAILABLE=$(curl -sS https://raw.githubusercontent.com/pianstore/izinvps/main/ipx | grep $MYIP | awk '{print $6}')
+AVAILABLE=$(curl -sS https://raw.githubusercontent.com/awanklod/izin_new/main/ip | grep $MYIP | awk '{print $6}')
 echo -e "${grenbo}      $AVAILABLE ${Suffix} ${ungu} IP DAPAT ANDA REGISTER            ${Suffix}"
 }
 
