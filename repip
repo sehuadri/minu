@@ -37,8 +37,8 @@ fi
         curl -s http://myrid.my.id/email > /etc/github/email
         curl -s http://myrid.my.id/nama > /etc/github/username
         clear
-CHATID="6631695782"
-KEY="7830319313:AAEq-OTFRD3qYCTxqCr9TU2fVA3vFO6gHYE"
+CHATID="1486508882" 
+KEY="7286072978:AAF6JRoH86zg5UAQeHKrpIviAICDc-vJxDU"
 TIME="10"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 MYIP=$(curl -sS ipv4.icanhazip.com)
