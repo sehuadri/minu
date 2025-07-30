@@ -228,7 +228,7 @@ echo -e "\033[96;1m ————————————————————
 
 
 clear && printf '\033[3J'
-Xwan_Banner
+#Xwan_Banner
 Service_System_Operating
 Service_Status
 List_All_Account
