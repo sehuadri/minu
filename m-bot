@@ -146,7 +146,7 @@ echo -e ""
 read -p " Select menu :  "  opt
 echo -e   ""
 case $opt in
-01 | 1) clear ; wget -q https://raw.githubusercontent.com/sehuadri/oss/main/bot/kyt.sh && chmod +x kyt.sh && ./kyt.sh ;;
+01 | 1) clear ; wget -q https://raw.githubusercontent.com/awanklod/os/main/bot/kyt.sh && chmod +x kyt.sh && ./kyt.sh ;;
 02 | 2) clear ; hapus-bot ;;
 03 | 3) clear ; stop-bot ;;
 04 | 4) clear ; restart-bot ;;
